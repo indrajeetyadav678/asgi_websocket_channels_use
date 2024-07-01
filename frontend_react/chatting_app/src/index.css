@@ -1,0 +1,86 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; */
+  background-color: #3a2626;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.register_wrapper{
+  width: 410px;
+  height: auto;
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+}
+.signuptbtn{
+  background-color: #535bf2;
+  border: 1px solid black;
+  color: white;
+}
+.input_field{
+  width: 360px;
+  height: 35px;
+  padding-left: 15px;
+  border-radius: 6px;
+
+}
+#Navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  list-style: none;
+  position: sticky;
+  top:-10px;
+  background-color: #242424;
+}
+
+#Navbar li{
+  color: #ffffff;
+}
+
+#user_datahead tr th{
+ border: 1px solid black;
+ width: 400px;
+ height: 40px;
+ text-align: center;
+}
+
+#user_databody tr td{
+  border: 1px solid black;
+  width: 400px;
+  height: 40px;
+  text-align: center;
+ }
