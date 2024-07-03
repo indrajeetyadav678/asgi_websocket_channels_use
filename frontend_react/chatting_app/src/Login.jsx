@@ -44,7 +44,7 @@ const Login=()=>{
       alert("Login Successfully")
       dispatch(adduser_data(userdata))
     }
-    console.log(userdata) 
+    // console.log(userdata) 
     navigate("/home")
   }
 

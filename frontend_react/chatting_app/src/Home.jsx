@@ -1,10 +1,18 @@
+import { useEffect, useState } from 'react';
 
 
 
-const Home=()=>{
-    return(
+const Home = () => {
+   
+
+  
+    return (
         <>
-        <h1>This is Home Page</h1>
+   
+        
+
+
+            <h1>This is Home Page</h1>
         </>
     );
 }
